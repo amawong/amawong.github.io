@@ -1,0 +1,156 @@
+
+
+header {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+}
+
+body {
+    font-family: 'BioRhyme';
+    color: #484848;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 40px;
+    line-height: 80px;
+}
+
+nav a {
+    color: #000;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+
+#logo {
+    padding-top: 5px;
+    height: 80px;
+}
+
+#banner {
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.content {
+    width: 1000px;
+    margin: auto;
+}
+
+.berk {
+    padding-top: 30px;
+    float: left;
+}
+
+.berktext {
+    padding-left: 600px;
+    margin-right: auto;
+}
+
+.oak {
+    padding-left: 100px;
+    float: right;
+}
+
+.oaktext {
+    text-align: left;
+    padding-left: 50px;
+}
+
+a:link { 
+    text-decoration: none; 
+}
+
+a:hover { 
+    text-decoration: underline; 
+}
+
+section {
+    padding: 10px; 
+    margin-bottom: 20px;
+}
+
+section img {
+    width: 500px;
+}
+
+h1 {
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+section p {
+    font-size: 20px;
+}
+
+/* Menu */
+#column_container {
+    width: 959px;
+    margin: 0 auto;
+}
+
+.column1 {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 4px;
+    margin-left: 250px;
+    float: left;
+}
+
+.column2 {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 4px;
+    float: right;
+}
+
+.cat {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 10px;
+    width: 400px;
+}
+
+.dog {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 10px;
+    width: 400px;
+}
+
+.name {
+    font-size: 20px;
+    margin: 5px;
+    font-weight: 600;
+}
+
+.details {
+    font-size: 16px;
+    margin: 5px;
+}
